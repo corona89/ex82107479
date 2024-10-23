@@ -17,3 +17,5 @@ spec:
           image: cepgbaseacr.azurecr.io/troubleshooting:lastest
           ports:
           - containerPort: 8080
+      imagePullSecrets:
+        - name: acr-auth
